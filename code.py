@@ -17,6 +17,9 @@ def revcomp(dseq):
             revcomp1+="C"
         elif dseq[i]=="C":
             revcomp1+="G"
+        else:
+            print("Invalid")
+            exit()
     return revcomp1
 
 
