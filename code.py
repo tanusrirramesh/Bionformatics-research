@@ -1,7 +1,7 @@
 fasta=input("Enter the FASTA sequence: ")
 dna=""
 for bp in fasta:
-    if bp[0]!=">":
+    if bp!=">":
         dna+=bp.upper()
 
         
